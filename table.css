@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+table tr,td,th{
+    border: 1px solid rgb(177, 35, 193);
+ 
+}
+table{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+border-collapse: collapse;
+width: 800px;
+height: 200px;
+box-shadow: 2px 2px 12px rgba(0,0, 0,0);
+
+}
+.header{
+    background-color: rgb(255, 179, 0);
+    color: cornsilk;
+}
+
+h1{
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(2, 203, 156);
+    color: #ffff;
+}
+tr:hover{
+    background-color: rgb(80, 95, 255);
+    transform: scale(1);
+    box-shadow: 2px 2px 12px rgba(0,0, 0,0);
+
+}
+
+tr{
+    transition: all 2s ease-in;
+    cursor: pointer;
+}
+th,td{
+    padding: 12px;
+    text-align: left;
+}
